@@ -70,7 +70,7 @@ This app uses the [TheMealDB API](https://www.themealdb.com/api.php) to fetch an
 
 ## 🌐 Live Demo
 
-🔗 [Live Site](https://your-live-link.netlify.app)  
+🔗 [Live Site](https://transcendent-trifle-2bd650.netlify.app/)  
 📁 [GitHub Repo](https://github.com/Anurag-snippet/recipeFinderWebsite.git)
 
 ---
