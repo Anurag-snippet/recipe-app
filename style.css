@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color:#F0F0F0;
+  color:  #333;
+  padding: 20px;
+  background-image: url("assets/background.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: white
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  padding-bottom: 21px;
+  color: white
+}
+
+#search-input {
+  border-radius: 40px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  width: 250px;
+}
+#search-btn {
+  border-radius: 5px;
+  padding: 10px;
+  width: 90px;
+  background-color: #ff5722;
+  margin-left: 19px;
+  cursor: pointer;
+  color: white;
+  border: 2px solid #ccc;
+}
+
+#search-btn:hover {
+  background-color: #e64a19;
+}
+
+#recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  background: white;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recipe-info {
+  padding: 15px;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.favorite-btn img {
+  width: 24px;
+  height: 24px;
+  filter: drop-shadow(1px 1px 1px #00000022);
+}
+
+.recipe-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+#favorites-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.popUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popUp-content {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.popUp-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.popUp-content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+  color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+
