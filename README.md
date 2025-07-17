@@ -1,2 +1,22 @@
-# recipe-app
-Recipe App is a web app that lets users search for recipes by keyword using TheMealDB API. It displays recipe details like images, ingredients, and instructions. Users can also save their favorite recipes using localStorage for quick access later.
+# 🍽️ Recipe Finder Website
+
+A simple and responsive recipe search website that fetches data from the [MealDB API](https://www.themealdb.com/api/json/v1/1/search.php?s=). Users can search for their favorite meals, view ingredients, cooking instructions, and explore meals by category.
+
+---
+
+## 🚀 Features
+
+- 🔍 Search recipes by name
+- 🍴 View meal details including:
+  - Ingredients & measurements
+  - Category and Area
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript 
+- **API**: [MealDB API](https://www.themealdb.com/api/json/v1/1/search.php?s=)
+
+---
+
