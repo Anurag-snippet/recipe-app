@@ -32,10 +32,18 @@ This app uses the [TheMealDB API](https://www.themealdb.com/api.php) to fetch an
 
 ---
 
+## 📽️ Video Demonstration
+
+Watch the short video demo explaining the app features, UI flow, and JavaScript logic:
+
+🔗 **[Click to Watch Video Demo](https://drive.google.com/file/d/10cPQLSj7luRg_A7UorxlTjL4jHwdwddd/view?usp=drive_link)**  
+*(Hosted on Google Drive)*
+
+---
+
 ## 🌐 Live Demo
 
 🔗 [Live Site](https://transcendent-trifle-2bd650.netlify.app/)  
-📁 [GitHub Repo](https://github.com/Anurag-snippet/recipeFinderWebsite.git)
 
 ---
 
